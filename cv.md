@@ -32,3 +32,4 @@ function isDivisible(n, x, y) {
 ***
 ### Languages:
 * Russian - native
+* English - beginner
