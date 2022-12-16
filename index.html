@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cv</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="icon" href="/assets/img/favicon_rs.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="navigation">
+				<ul class="navigation-list">
+					<li class="navigation-list__item"><a href="#contacts" class="navigation-list__link">Contact</a></li>
+					<li class="navigation-list__item"><a href="#about-me" class="navigation-list__link">About me</a></li>
+					<li class="navigation-list__item"><a href="#skills" class="navigation-list__link">Skills</a></li>
+					<li class="navigation-list__item"><a href="#code" class="navigation-list__link">Code</a></li>
+					<li class="navigation-list__item"><a href="#courses" class="navigation-list__link">Courses</a></li>
+					<li class="navigation-list__item"><a href="#languages" class="navigation-list__link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<section class="main-header">
+				<h1 class="name">Alexey Mikhaylov</h1>
+			</section>
+
+			<div class="wrapper">
+				<section class="contacts section" id="contacts">
+					<h2 class="contacts__title">Contact information:</h2>
+					<ul class="contacts-list">
+						<li class="contacts-list__item"><span class="contacts__subtitle">E-mail: </span> krummi1414@yandex.ru</li>
+						<li class="contacts-list__item"><span class="contacts__subtitle">Telegram:</span> @sinelamin</li>
+						<li class="contacts-list__item"><span class="contacts__subtitle">Discord:</span> Alexey Mikhailov (@sinelamin)</li>
+					</ul>
+				</section>
+
+				<section class="about-me section" id="about-me">
+					<h2 class="about-me__title">A little about me</h2>
+					<img src="/assets/img/photo.png" alt="my-photo" class="my-photo">
+					<p class="about-me__discription">
+						In April 2022, I met with a friend whom I hadn't seen for 10 years, it turned out that he works as a programmer and he loves his job very much, he said <span class="description-span">- "Man, I'd love to work for free, but I get paid $9,000 a month!"</span>. It made a strong impression on me, because my work brought me pain and depression, to be honest, I didn't want to do it so much that money no longer mattered. I found out that his girlfriend is also a very cool programmer and asked <span class="description-span">- "It looks like your seed has great IT power, if I suck your dick, will I become a programmer?"</span>, he replied <span class="description-span">- "There is no need for this - Frontend, brother, this is the easiest way to become a programmer"</span>, we laughed and I went home, but this conversation haunted me for several days <span class="description-span">- "Damn, it looks like I'm not his type" - it was spinning in my head</span>, and then I put these thoughts aside and started looking for information on programming training - how, where, how much does it cost?<span class="description-span"> Since then, I have firmly decided to become a programmer and swore that I would not get a haircut until I became a Frontend developer, now I am so overgrown that I look like a toilet brush, so that's my goal... Finally get a haircut. Well, and become a Frontend developer of course.</span>
+					</p>
+				</section>
+
+				<section class="skills section" id="skills">
+					<h2 class="skills__title">Skills and Proficiency:</h2>
+					<ul class="skills-list">
+						<li class="skills-list__item">Beginner HTML, CSS, JavaScrtipt</li>
+						<li class="skills-list__item">Looked at the React/redux with one eye</li>
+					</ul>
+				</section>
+
+				<section class="code section" id="code">
+					<h2 class="code__title">Code example:</h2>
+						<code class="code__structure">
+							function isDivisible(n, x, y) {
+								const resultOne = n / x;
+								const resultTwo = n / y;
+								if (resultOne == Math.round(resultOne) && resultTwo == Math.round(resultTwo)) {
+										return true;
+								}  else {
+										return false;
+								}
+							}
+							
+						</code>
+				</section>
+
+				<section class="courses section" id="courses">
+					<h2 class="courses__title">Courses:</h2>
+					<ul class="courses-list">
+						<li class="courses-list__item">"Fundamentals of Frontend development" from Innopolis University</li>
+						<li class="courses-list__item">"JavaScript Basics" by Udemy</li>
+					</ul>
+				</section>
+
+				<section class="languages section" id="languages">
+					<h2 class="languages__title">Languages:</h2>
+					<ul class="languages-list">
+						<li class="languages-list__item">Russian - native</li>
+						<li class="languages-list__item">English - beginner</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<div class="information">
+					<h3 class="year">2022</h3>
+					<a href="https://github.com/sinelamin" class="github" target="_blank">sinelamin</a>
+				</div>
+				<a href="https://rs.school/js/" target="_blank">
+					<img src="/assets/img/rs_school_js.svg" alt="rs-schoole-logo" class="logo-rs">
+				</a>
+			</div>
+		</div>
+  </footer>
+</body>
+</html>
