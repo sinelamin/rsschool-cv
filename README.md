@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sinelamin.github.io/rsschool-cv/
