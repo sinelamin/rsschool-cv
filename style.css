@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #004465;
+  height: 5vh;
+}
+
+.navigation {   
+  height: 5vh;
+}
+
+.navigation-list {
+  padding-left: 50%;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+.navigation-list__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-list__item {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.main {
+  background-color: #002C42;
+  height: 90vh;
+  overflow-x: auto;
+}
+
+.main::-webkit-scrollbar {
+  width: 0px;
+}
+
+.name {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 270px;
+  border-bottom: 1px solid #c16bbd;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  width: 49%;
+  border-bottom: 1px solid #c16bbd;
+}
+
+.contacts__title, .code__title, .about-me__title, .skills__title, .courses__title, .languages__title  {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #c16bbd;
+}
+
+.contacts-list__item, .about-me__discription, .skills-list__item, .courses-list__item, .languages-list__item  {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.contacts__subtitle {
+  font-weight: 700;
+  color: #c16bbd;
+}
+
+.my-photo {
+  float: left;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+}
+
+.description-span {
+  color: #E0A9DE;
+}
+
+.code__structure {
+  white-space: pre-line;
+}
+
+.courses, .languages {
+  border-bottom: none;
+}
+
+.footer {
+  background-color: #004465;
+  height: 5vh;
+}
+
+.footer-block {
+  height: 5vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.information {
+  display: flex;
+}
+
+.year {
+  margin: 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.github {
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo-rs {
+  height: 40px;
+}
